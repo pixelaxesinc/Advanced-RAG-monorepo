@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "advanced-rag-system"
+version = "0.1.0"
+description = "Enterprise RAG System with vLLM, Qdrant, and Multi-Agent Orchestration"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11,<3.15"
+llama-index = "^0.10.0"
+llama-index-llms-openai-like = "^0.1.0"
+langchain = "^0.1.0"
+langgraph = "^0.0.10"
+qdrant-client = "^1.7.0"
+docling = "^1.0.0" 
+langfuse = "^3.10.5"
+# Note: deepeval removed due to dependency conflicts with Langfuse SDK v3 (protobuf, click)
+# Add it back as a dev dependency if needed for evaluation tasks
+openai = "^1.10.0"
+python-dotenv = "^1.0.0"
+fastapi = "^0.109.0"
+uvicorn = "^0.27.0"
+python-multipart = "^0.0.6"
+transformers = "^4.36.0"
+llama-index-embeddings-huggingface = "^0.2.0"
+sentence-transformers = "^2.2.0"
+torch = "^2.1.0"
+pillow = "^10.0.0"
+# Note: openinference-instrumentation-llama-index requires llama-index >= 0.11.0
+# Uncomment if you upgrade llama-index, or use @observe decorators for tracing
+# openinference-instrumentation-llama-index = "^3.0.0"
+# Note: vLLM is recommended to run via Docker on Windows, 
+# but if you are on WSL2/Linux you can uncomment the line below.
+# vllm = "^0.3.0" 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+black = "^24.0.0"
+isort = "^5.13.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

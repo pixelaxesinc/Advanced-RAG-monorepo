@@ -1,0 +1,18 @@
+[
+  {
+    "input": "What is the primary advantage of Hybrid Retrieval?",
+    "expected_output": "The primary advantage of Hybrid Retrieval is that it combines dense vector search, which captures semantic meaning, with sparse methods like BM25, which are effective for exact keyword matching. This ensures that both conceptual understanding and specific terminology are handled effectively.",
+    "context": [
+      "Dense vector search alone often fails to capture exact terminology...",
+      "Sparse Retrieval (BM25): Keyword-based matching catches terminology your embeddings miss"
+    ]
+  },
+  {
+    "input": "How does Semantic Caching reduce costs?",
+    "expected_output": "Semantic Caching reduces costs by storing embeddings of past queries and their responses. When a new query is semantically similar to a cached one (above a certain threshold), the system returns the cached response immediately, avoiding expensive LLM calls.",
+    "context": [
+      "Semantic caching uses embedding similarity to identify cacheable requests.",
+      "If hit -> Return cached response immediately (Zero cost)."
+    ]
+  }
+]
